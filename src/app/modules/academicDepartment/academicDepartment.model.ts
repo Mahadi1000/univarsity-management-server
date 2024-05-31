@@ -1,8 +1,6 @@
 import { Schema, model } from 'mongoose';
-import {
-  AcademicDepartmentModel,
-  IAcademicDepartment,
-} from './academicDepartment.interfaces';
+import { AcademicDepartmentModel, IAcademicDepartment } from './academicDepartment.interface';
+
 
 const AcademicDepartmentSchema = new Schema<
   IAcademicDepartment,
@@ -18,11 +16,6 @@ const AcademicDepartmentSchema = new Schema<
       type: Schema.Types.ObjectId,
       ref: 'AcademicFaculty',
       required: true,
-    },
-    syncId: {
-      type: String,
-      required: true,
-      unique: true
     },
   },
   {

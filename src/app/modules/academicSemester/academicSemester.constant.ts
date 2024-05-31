@@ -16,7 +16,7 @@ export const academicSemesterCodes: IAcademicSemesterCodes[] = [
   '03',
 ];
 
-export const acdemicSemesterMonths: IAcademicSemesterMonths[] = [
+export const academicSemesterMonths: IAcademicSemesterMonths[] = [
   'January',
   'February',
   'March',
@@ -38,17 +38,10 @@ export const academicSemesterTitleCodeMapper: {
   Summer: '02',
   Fall: '03',
 };
-
+ export const academicSemesterFilterableFields = [
+   'searchTerm',
+   'title',
+   'code',
+   'year',
+ ];
 export const academicSemesterSearchableFields = ['title', 'code', 'year'];
-
-export const academicSemesterFilterableFields = [
-  'searchTerm',
-  'title',
-  'code',
-  'year',
-  'syncId'
-];
-
-export const EVENT_ACADEMIC_SEMESTER_CREATED = 'academic-semester.created'
-export const EVENT_ACADEMIC_SEMESTER_UPDATED = 'academic-semester.updated'
-export const EVENT_ACADEMIC_SEMESTER_DELETED = 'academic-semester.deleted'

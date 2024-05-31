@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\.a7639336458d9640efa85cff50ae445bf2e0b34a-audit.json",
+    "files": [
+        {
+            "date": 1716829345598,
+            "name": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-27-05-23-error.log",
+            "hash": "44267f0e765133d631fbac9a7d6e1357ddc5df810675334802ab926280d5f35f"
+        },
+        {
+            "date": 1716893255040,
+            "name": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-28-05-16-error.log",
+            "hash": "9cc5d0c3f9d49760f0cc8c33a5f78f431fac5d536b502796390d069ed406803b"
+        },
+        {
+            "date": 1716896650534,
+            "name": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-28-05-17-error.log",
+            "hash": "291d49f6383cee1fb08f82b15439cbf43999b87912f5a5bf1cffa0eb692904eb"
+        },
+        {
+            "date": 1716898324964,
+            "name": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-28-05-18-error.log",
+            "hash": "5900f53d378746fe44ff607b206dd718fb383912bfcba6358f109357a867a50a"
+        },
+        {
+            "date": 1716906088742,
+            "name": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-28-05-20-error.log",
+            "hash": "f53c5a0e852a4b3aca3b5397f9234299553ddfe65cb876baa9acd05719f37ddd"
+        },
+        {
+            "date": 1717133855579,
+            "name": "H:\\My projects\\University-Management\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-31-05-11-error.log",
+            "hash": "cdf5ee52354bf2908bb4adcba84277b15af8b40565e62b53c08b61894d403229"
+        }
+    ],
+    "hashType": "sha256"
+}
